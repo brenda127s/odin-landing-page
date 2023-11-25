@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
-    flex-flow: column-wrap;
-    justify-content: space-evenly;
+    flex-flow: column wrap;
+    justify-content: center;
     align-items: center;
     padding: 0px;
     margin: 0px;
 }
+
 header, .intro, footer {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(https://img.freepik.com/free-photo/side-view-cook-making-delicious-pasta_23-2150690631.jpg) no-repeat center fixed;
     background-size: cover;
@@ -69,7 +69,7 @@ a:hover {
 .intro-text {
     margin-left: 15%;
     display: flex;
-    flex-flow: column-wrap;
+    flex-flow: column wrap;
     flex: 1;
 }
 .image {
@@ -95,15 +95,16 @@ img {
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
-    flex-flow: column-wrap;
+    flex-flow: column wrap;
 }
 .content {
     flex-wrap: wrap;
     padding: 64px;
 }
 .content h2 {
-    flex-wrap: wrap;
-    padding: 64px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
 }
 .cards {
     display: flex;
@@ -150,6 +151,18 @@ img {
     font-weight: bold;
 }
 .sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 36px;
+    background-color: #f7601b;
+    border-radius: 5px;
+    margin: 100px auto;
+    color: #f9faf8;
+    flex-flow: row wrap;
+}
+.sign-up-button {
     border: 2px solid #f9faf8;
 }
 button:hover {
