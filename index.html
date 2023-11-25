@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css-practice/css/styles.css"
+    <link rel="stylesheet" href="css-practice/css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Project</title>
 </head>
 <body>
     <header>
-        <h1>Recipe Trends</h1>
-        <nav>
+        <div class="left-links">
+        <p class="logo">Recipe Trends</p>
+        </div>
+        <img class="menu" src="images/outline_menu_white24dp.png" alt="menu">
             <ul>
                 <li><a href="#info">INFO</a></li>
                 <li><a href="#trends">TRENDS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </nav>
     </header>
-    <section id="hero">
-        <h1>Discover the latest recipes from across platforms</h1>
-        <h2>infooooo</h2>
-        <img src="" alt="cooking image">
-        <form id="form">
-            <input name="signup" type="submit" value="Sign Up" class="btn">
-        </form>
-    </section>
-    <div class="conatiner">
-        <section id="latest">
-            <div class="grid">
-                <h2>Latest Food Trends</h2>
-                <div class="latest-image">
-                    <figure>
-                    <img src="" alt="">
-                    <figcaption>info for image 1</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>info for image 2</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="" alt="">
-                            <figcaption>info for image 3</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="" alt="">
-                                <figcaption>info for image 4</figcaption>
-                                </figure>
+    <div class="main">
+        <div class="intro">
+            <div class="intro-text">
+            <h1>Learn the latest recipes that are trending!</h1>
+            <p class="sidekick-text">subtext goes here under main title</p>
+            <button class="sign-up">Sign Up</button>
+            </div>
+            <div class="image">
+                <p>more text</p>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Check Out the Latest Recipes</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>subtext under image</p>
                 </div>
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>subtext under image</p>
                 </div>
-            </section>
-                <div class="quote">
-                    <blockquote class="image-quote">
-                    <hr><p class="quote">quoteeeee</p></hr>
-                    </blockquote>
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>subtext under image</p>
                 </div>
-                <div class="create">
-
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>subtext under image</p>
                 </div>
+            </div>
+        </div>
+        <div class="quote">
+            <p>quote here</p>
+            <p class="author">Author Name here</p>
+        </div>
+        <div class="sign-up section">
+            <div class="text">
+                <p><b>Sign up to join the latest food trends!</b></p>
+                <p class="small">Sign up by clicking that button right over there!</p>
+            </div>
+            <button class="sign-up">Sign up</button>
+        </div>
     </div>
     <footer>
-        
+        <p>Copyright <span>&#169</span> The Odin Project</p>
     </footer>
 </body>
 </html>
